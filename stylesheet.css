@@ -154,31 +154,3 @@ a {
     text-decoration: none;
     color: rgb(79, 146, 80);
 }
-
-.pw-check:invalid {
-	border: 1px solid red;
-}
-
-.pw-check:invalid+span:before {
-	position: absolute;
-	right: 8em;
-	top: 6.9em;
-	width: 220px;
-	font-size: 0.6em;
-	color: red;
-	content: "Enter a valid password"	
-}
-
-.pw-confirm-check {
-	border: 1px solid red;
-}
-
-.pw-confirm-check+span:before {
-	position: absolute;
-	right: 8em;
-	top: 6.9em;
-	width: 220px;
-	font-size: 0.6em;
-	color: red;
-	content: "Passwords must match"	
-}
