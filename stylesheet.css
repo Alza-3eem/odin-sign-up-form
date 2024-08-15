@@ -124,6 +124,13 @@ input.error {
     border-color: red;
 }
 
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+    display: none;
+}
+
 button {
     background-color: rgb(79, 146, 80);
     color: #eee;
