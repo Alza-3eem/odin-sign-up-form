@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP Sign-Up Form</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div id="sidebar">
+        <div id="logo-bg">
+            <img id="wa-logo" src="images/wa-logo.png" alt="WA Logo">
+        </div>
+        <footer>
+            Photo by <a href="https://unsplash.com/@jaydraws2019">Jeyakumaran Mayooresan</a> on <a href="https://unsplash.com">Unsplash</a>
+        </footer>
+    </div>
+    <div id="main">
+        <p id="top-text">
+            Join the WaggAlong community today to find local dog parks near you! Your dog will start meeting friends in no time!<br>Sign up <em>now</em> to get started.<br><br>You <em>know</em> you want to.
+        </p>
+        <div id="form-div">
+            <h2>Let's do this!</h2>
+            <form id="create-acct" action="">
+                <div class="form-row">
+                    <label for="first-name">FIRST NAME
+                    <input required value="" type="text" name="first-name"></label>
+                    <label for="last-name">LAST NAME
+                    <input required value="" type="text" name="last-name"></label>
+                </div>
+                <div class="form-row">
+                    <label for="email">EMAIL
+                    <input required type="email" name="email"></label>
+                    <label for="phone">PHONE NUMBER
+                    <input required type="tel" pattern="\d{10}|\d{3}[- ]\d{3}[- ]\d{4}" title="Enter a valid phone number format (e.g., 1234567890 or 123-456-7890 or 123 456 7890)" name="phone"></label>
+                </div>
+                <div class="form-row">
+                    <label for="password">PASSWORD
+                    <input required id="password" type="password" name="password" pattern="\w{8,}" placeholder="8 character minimum"><span></span></label>
+                    <label for="confirm-pw">CONFIRM PASSWORD
+                    <input required id="confirm" type="password" name="confirm-pw" placeholder="Confirm password"><span></span></label>
+                </div>
+            </form>
+        </div>
+        <button type="submit" form="create-acct">Create Account</button>
+        <p id="question">Already have an account? <a href="">Log in</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
